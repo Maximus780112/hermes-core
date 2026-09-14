@@ -4,16 +4,23 @@ Local-first Windows/Linux/macOS client: Ed25519 device identity, DPAPI on Window
 
 This repository is the **client** (runtime + Windows installer). It is not the WhatsApp relay, billing, or central Lynq servers.
 
+## Downloads
+
+Windows installer (PE): [HermesCoreSetup-0.1.2.exe](https://github.com/Maximus780112/hermes-core/releases/tag/v0.1.2)
+
+SHA256 `9a8b08d99630d246fd61254bf525a3fbd91566e4d732fbf880596b85cf263746`
+
+This project uses SignPath Foundation for code signing.
+
+Free code signing provided by [SignPath.io](https://about.signpath.io), certificate by [SignPath Foundation](https://signpath.org). See the [Code signing policy](CODE_SIGNING_POLICY.md).
+
+Until SignPath Foundation accepts the project, the published installer remains unsigned.
+
 ## Windows installer
 
-Engineering-certified unsigned PE (do not confuse with the old `.vbs` ZIP):
-
-- `HermesCoreSetup-0.1.2.exe`
-- SHA256 `9a8b08d99630d246fd61254bf525a3fbd91566e4d732fbf880596b85cf263746`
+Engineering-certified unsigned PE (do not confuse with the old `.vbs` ZIP).
 
 Install is user-scope (`%LOCALAPPDATA%\Programs\HermesCore\`). Identity stays in `%LOCALAPPDATA%\HermesCore\identity.json` (DPAPI). Uninstall keeps identity unless you opt in to purge.
-
-Code signing: see [CODE_SIGNING_POLICY.md](CODE_SIGNING_POLICY.md).
 
 ## License
 

@@ -1,5 +1,7 @@
 # Code signing policy
 
+This project uses SignPath Foundation for code signing.
+
 Free code signing provided by [SignPath.io](https://about.signpath.io), certificate by [SignPath Foundation](https://signpath.org)
 
 Status: **pending SignPath Foundation approval**. Releases until approval are unsigned.
