@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hermes-core"
+version = "0.1.2"
+description = "Customer Hermès Core — local device identity and pairing (Gate 1)"
+requires-python = ">=3.11"
+dependencies = ["cryptography>=41"]
+
+# Platform secret backends use stdlib ctypes (crypt32 / Security.framework).
+[project.optional-dependencies]
+windows = []
+macos = []
+
+[project.scripts]
+hermes-core = "hermes_core.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

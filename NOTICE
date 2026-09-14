@@ -1,0 +1,8 @@
+Hermès Core
+Copyright 2026 Hermès Core authors
+
+Licensed under the Apache License, Version 2.0.
+This product includes software developed by the Hermès Core authors.
+
+Windows installer product name: Hermès Core
+Identity path on Windows: %LOCALAPPDATA%\HermesCore\identity.json
