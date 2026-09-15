@@ -8,7 +8,7 @@
   "pe_sha256": "9a8b08d99630d246fd61254bf525a3fbd91566e4d732fbf880596b85cf263746",
   "bootstrap_filename": "lynq-windows-bootstrap-0.1.2.ps1",
   "bootstrap_url": "https://github.com/Maximus780112/hermes-core/releases/download/v0.1.2/lynq-windows-bootstrap-0.1.2.ps1",
-  "bootstrap_sha256": "aaa36e250a556671b1443341808e480542e45d70f787a1decd2c74e1bd9d60e0",
+  "bootstrap_sha256": "f0c5581af83bcd163f762394b6993ffb32e1fce87c9c66f255de721a6fa40f01",
   "manifest_url": "https://github.com/Maximus780112/hermes-core/releases/download/v0.1.2/lynq-windows-manifest-0.1.2.json",
   "authenticode": "UNSIGNED_PENDING_SIGNPATH",
   "note": "Public GitHub Releases. Pairing URL is supplied at runtime and is not stored in this file."
