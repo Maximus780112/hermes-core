@@ -1,0 +1,15 @@
+{
+  "version": "0.1.2",
+  "architecture": "x64",
+  "min_windows": "10.0.19041",
+  "protocol_version": "1",
+  "pe_filename": "HermesCoreSetup-0.1.2.exe",
+  "pe_url": "https://github.com/Maximus780112/hermes-core/releases/download/v0.1.2/HermesCoreSetup-0.1.2.exe",
+  "pe_sha256": "9a8b08d99630d246fd61254bf525a3fbd91566e4d732fbf880596b85cf263746",
+  "bootstrap_filename": "lynq-windows-bootstrap-0.1.2.ps1",
+  "bootstrap_url": "https://github.com/Maximus780112/hermes-core/releases/download/v0.1.2/lynq-windows-bootstrap-0.1.2.ps1",
+  "bootstrap_sha256": "6f1d149e6626d781490b5606ccddd8f846dc182eb17f0f681f448ca968bc7897",
+  "manifest_url": "https://github.com/Maximus780112/hermes-core/releases/download/v0.1.2/lynq-windows-manifest-0.1.2.json",
+  "authenticode": "UNSIGNED_PENDING_SIGNPATH",
+  "note": "Public GitHub Releases. Pairing URL is supplied at runtime and is not stored in this file."
+}
